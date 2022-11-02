@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/gaya.css">
+    <script src="assets/js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="box" id="box">
+        <div class="foto">
+            <img class="img1" src="assets/foto/i.png">
+            <img class="img2" src="assets/foto/i2.jpg">
+        </div>
+        <div class="box2">
+            <h5>Selamat Datang Di website entah apa namanya</h5>
+            <p>&nbsp;&nbsp;&nbsp;Quote saya: </p>
+            <p class="q">"Jangan makan kalo belum disuruh makan ayang"</p>
+            <p class="qnama">~Andr!&nbsp;&nbsp;&nbsp;</p>
+        </div>
+        <div class="box3">
+            <p>Tidak hanya Lesti, anda juga bisa memberi Tanggapan, <a id="kliktang" href="">klik disini untuk memberi tanggapan</a></p>
+        </div>
+    </div>
+
+    <div id="tanggapan" class="box-tanggapan">
+        <a id="kembalitang" href="">Kembali</a>
+        <h5>Tanggapi Quote saya</h5>
+
+        <label id="lab-nama">Nama Anda</label>
+        <input class="inputnama" id="inpnama" type="text" placeholder="Masukan Nama Anda..." oninput="ubah_nama()">
+
+        <label id="lab-tanggapan">Tanggapan Anda</label>
+        <textarea placeholder="Tuliskan Tanggapan Anda..." name="" id="inptang" cols="100" rows="10" oninput="ubah_tang()"></textarea>
+
+        <div class="box-kirim">
+            <button tabindex="-1" id="bagus">Bagus</button>
+            &nbsp;&nbsp;&nbsp;
+            <button tabindex="-99" id="jelek" onclick="klikjelek()">Jelek</button>
+        </div>
+        
+    </div>
+
+    <div id="box-list" class="box-list">
+        <a id="kembalilist" href="">Kembali</a>
+        
+        <table align="center" id="table">
+            <thead id="tablehead">
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Tanggapan</th>
+                    <th>Keterangan</th>
+                </tr>
+            </thead>
+            <tbody id="tablebodi" class="tablebodi">
+    
+            </tbody>
+        </table>
+        
+    </div>
+
+    <div class="lihatT" id="lihatT">
+        <p>Lihat Tanggapan</p>
+    </div>
+
+    <div class="kosong" id="kosong"></div>
+</body>
+</html>

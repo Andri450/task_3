@@ -1,0 +1,15 @@
+{
+    "data": [{
+        "nama": "lorem",
+        "tanggapan": "Bagus",
+        "keterangan": "woww"
+    },{
+        "nama": "Mr pudidi",
+        "tanggapan": "Bagus",
+        "keterangan": "keren"
+    },{
+        "nama": "ipsum",
+        "tanggapan": "Bagus",
+        "keterangan": "Quotes nya sangat memotivasi"
+    }]
+}

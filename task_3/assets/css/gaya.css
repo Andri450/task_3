@@ -1,0 +1,225 @@
+body{
+    background-color: #EDDBC0;
+}
+
+.box{
+    transition: 1s ease-in-out;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    background-color: #F5EFE6;
+    padding: 20px;
+    height: 280px;
+    top: 220px;
+    border-radius: 10px;
+}
+
+.foto{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+}
+
+.img1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.img2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 270px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* opacity: 0.4; */
+}
+
+.box2{
+    position: absolute;
+    top: 0;
+    right: 80px;
+    width: 40%;
+}
+
+.box2 > h5{
+    text-align: center;
+    font-size: 20px;
+}
+
+.box2 > .q{
+    text-align: center;
+}
+
+.box2 > .qnama{
+    text-align: right;
+}
+
+.box3{
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #B73E3E;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box3 > p > a{
+    color: #B4CDE6;
+    text-decoration: none;
+}
+
+.box3 > p > a:hover{
+    color: #BCEAD5;
+}
+
+.box-tanggapan{
+    position: relative;
+    margin: auto;
+    width: 60%;
+    background-color: #F5EFE6;
+    padding: 20px;
+    top: 120px;
+    border-radius: 10px;
+}
+
+#tanggapan{
+    display: none;
+}
+
+/* #box {-webkit-transition: opacity 1s linear; -o-transition: opacity 1s linear; transition: opacity 1s linear;}
+#box.hidden {opacity: 0;} */
+
+.inputnama{
+    margin-top: 8px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 94%;
+    margin-bottom: 20px;
+}
+
+.box-tanggapan > label{
+    margin: 8px;
+}
+
+#lab-nama{
+    transition: .8s ease-in-out;
+    display: none;
+}
+
+#lab-tanggapan{
+    transition: .8s ease-in-out;
+    display: none;
+}
+
+textarea{
+    margin-top: 8px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.box-kirim{
+    margin-top: 20px;
+}
+
+#bagus{
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+#jelek{
+    bottom: 10px;
+    left: 120px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+.kosong{
+    display: none;
+    position: relative;
+    margin-top: 50px;
+    height: 200px;
+    top: 400px;
+}
+
+#kembalitang{
+    float: right;
+    text-decoration: none;
+}
+
+#kembalilist{
+    float: right;
+    text-decoration: none;
+}
+
+.lihatT{
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #DD5353;
+    padding: 40px;
+    color: white;
+    border-bottom-right-radius: 50%;
+}
+
+.box-list{
+    display: none;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    background-color: #F5EFE6;
+    padding: 20px;
+    top: 120px;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#tablehead{
+    padding: 20px;
+}
+
+.tablebodi td{
+    text-align: center; 
+    vertical-align: middle;
+    padding: 20px;   
+}
